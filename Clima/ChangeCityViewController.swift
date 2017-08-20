@@ -35,7 +35,7 @@ class ChangeCityViewController: UIViewController {
         delegate?.userEnteredANewCityName(city: cityName)
         
         //3 dismiss the Change City View Controller to go back to the WeatherViewController
-   
+        self.dismiss(animated: true, completion: nil)
         
     }
     
